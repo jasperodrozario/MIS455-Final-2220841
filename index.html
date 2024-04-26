@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meal</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <!-- Navbar Commit -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a href="index.html"><img id="logo" src="/img/Daco_4273719.png" alt="Image not found"></a>
@@ -33,6 +34,45 @@
             </div>
         </div>
     </nav>
+    
+
+    <div id="body-div" class="body-content">
+        <h2>Welcome to a meal webpage</h2>
+        <div class="container text-center">
+            <div id="carouselExample" class="carousel slide image-slider col-6">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active"  data-bs-interval="5000">
+                        <img src="https://wallpapersmug.com/download/1600x900/b67e3e/pizza-slices-food.jpg" class="d-block w-100" alt="Image not found">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="https://napolina.com/wp-content/uploads/sites/15/2023/08/SPAGHETTI_BOLOGNESE_16x9-1536x864.jpg.webp" class="d-block w-100" alt="Image not found">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="/img/food-hd-pictures-04863.jpg" class="d-block w-100" alt="Image not found">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTWZdCYquJZ84wObTpLpa9u1hCf22DSnWtdFKBDqjW3IcGVq3OF7GA4S6xtwRANQzhjiIWwJreI7YrcyZ6C2UzTrjAovHa5W7ulkxaXs9nA0e_Ni-iP6CDuIzKa0luRHcjyyYBYfz2qCuA/s1600/Trial-1.jpg" class="d-block w-100" alt="Image not found">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <button id="show-more-btn" class="show-more-btn-style" onclick="showMore()">Show More</button>
 
     <footer class="footer">
         <div class="footer-copyright">

@@ -2,6 +2,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+/* Navbar Style */
 #logo {
     width: 50px;
     padding:3px;
@@ -55,6 +56,92 @@ body {
     border-color: rgb(70, 70, 70);
 }
 
+/* body content style */
+h2 {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+h6 {
+    text-align: left;
+    margin-left: 24px;
+}
+
+.carousel {
+    margin-left: 15%;
+    margin-bottom: 50px;
+    width: 900px;
+}
+
+.carousel-item p {
+    font-size: 80%;
+}
+
+.card-style {
+    margin: 12px;
+    margin-left: 22px;
+    margin-right: 22px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.card-header {
+    display: flex;
+    background-color: white;
+    border: 0px;
+}
+
+.card-header img{
+    width: 250px;
+}
+
+.card-heading {
+    margin: 15px;
+    padding-top: 45px;
+}
+
+.card-heading p {
+    width: 100px;
+    background-color: rgb(155, 155, 155);
+    font-size: 20px;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-ingredients {
+    margin: 10px;
+    font-weight: 500;
+}
+
+.card-instructions {
+    margin: 10px;
+    font-weight: 400;
+}
+
+.show-more-btn-style {
+    background-color: rgb(255, 94, 0);
+    border: 1px solid rgb(255, 94, 0);
+    border-radius: 5px;
+    color: white;
+    margin: 20px;
+    padding: 7px;
+}
+
+.show-more-btn-style:hover {
+    background-color: rgba(255, 94, 0, 0.76);
+    border: 1px solid rgba(255, 94, 0, 0.76);
+}
+
+#show-more-btn {
+    display: none;
+}
+
+/* Footer Style */
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -103,4 +190,18 @@ footer div {
 .footer-copyright {
     margin-left: 25px;
     font-size: 14px;
+}
+
+/* css animation */
+
+.card-style:hover {
+    animation-name: transformAnimation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+}
+
+@keyframes transformAnimation {
+    100% {transform: scale(1.02);}
 }

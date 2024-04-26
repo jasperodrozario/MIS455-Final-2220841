@@ -49,3 +49,53 @@ body {
     background-color: rgb(70, 70, 70);
     border-color: rgb(70, 70, 70);
 }
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+}
+
+footer div {
+    padding-top: 15px;
+}
+
+.footer-logo {
+    padding: 0px;
+}
+
+
+.footer-logo img{
+    margin: 10px;
+    width: 30px;
+    margin-left: 45px;
+}
+
+.footer-logo {
+    grid-column: 3;
+}
+
+.footer-contact {
+    grid-column: 5;
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.footer-contact-logo1 {
+    width: 25px;
+}
+
+.footer-contact-logo2 {
+    width: 35px;
+}
+
+.footer-contact-logo3 {
+    width: 23px;
+}
+
+.footer-copyright {
+    margin-left: 25px;
+    font-size: 14px;
+}
